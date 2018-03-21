@@ -4,8 +4,8 @@ class PigLatinizer
     @to_latin = input
   end
 
-  def self.translate(@to_latin)
-        sent = sent.downcase
+  def translate
+        @to_latin = sent.downcase
         vowels = ['a', 'e', 'i', 'o', 'u']
         words = sent.split(' ')
         result = []
