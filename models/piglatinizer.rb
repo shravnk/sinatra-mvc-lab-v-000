@@ -1,7 +1,7 @@
 class PigLatinizer
   attr_accessor :to_latin
   def initialize
-    
+
   end
 
   def piglatinize(sent)
