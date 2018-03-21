@@ -12,7 +12,7 @@ class PigLatinizer
     words.each_with_index do |word, i|
         translation = ''
         qu = false
-        if vowels.include? word[0]
+        if vowels.include? word[0].downcase
             translation = word + 'way'
             result.push(translation)
         else
