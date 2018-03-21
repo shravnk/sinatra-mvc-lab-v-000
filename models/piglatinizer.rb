@@ -1,11 +1,11 @@
 class PigLatinizer
   attr_accessor :to_latin
-  def initialize(input=nil)
-    @to_latin = input
+  def initialize
+    
   end
 
-  def translate
-        sent = @to_latin.downcase
+  def piglatinize(sent)
+        sent = sent.downcase
         vowels = ['a', 'e', 'i', 'o', 'u']
         words = sent.split(' ')
         result = []
