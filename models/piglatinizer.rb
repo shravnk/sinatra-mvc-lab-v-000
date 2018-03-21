@@ -1,6 +1,6 @@
 class PigLatinizer
   attr_accessor :to_latin
-  def initialize(input)
+  def initialize(input=nil)
     @to_latin = input
   end
 
